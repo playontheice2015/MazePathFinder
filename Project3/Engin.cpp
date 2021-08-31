@@ -198,7 +198,7 @@ namespace Engine {
 			SetConsoleCursorPosition(hConsole, pos);
 			
 			WriteConsole(hConsole, ".", 1, NULL, NULL);
-			Sleep(0.1 * 100);
+			Sleep(0.02 * 100);
 		}
 
 		
@@ -207,7 +207,7 @@ namespace Engine {
 			COORD pos = { 0, tmp->board->rows + 2 };
 			SetConsoleCursorPosition(hConsole, pos);
 			WriteConsole(hConsole, "r:", 1, NULL, NULL);
-			Sleep(0.2 * 100);
+			Sleep(0.02 * 100);
 		}
 
 
